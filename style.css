@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+#navBar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #00d4ff, #04b3bd, #055db1, #0651a9, #072c96, #090979, #00d4ff);
+    padding: 0 !important;
+}
+.logo{
+    width: 75px;
+    height: 44px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px; 
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 500;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+#banner {
+    background-image:linear-gradient(to right, #00d4ff, #04b3bd, #055db1, #0651a9, #072c96, #090979, #00d4ff);
+    padding-top: 5%;
+    color: #fff;
+}
+.title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.wave{
+    width: 100%;
+    height: 50px;
+}
+#sasuke{
+    padding: 80px 0;
+}
+.hotnaruto{
+    width: 100px;
+    margin-top: 20px;
+}
+.hotnaruto1{
+    width: 100px;
+    margin-top: 14px;
+}
+.hotnaruto2{
+    width: 100px;
+    margin-top: 80px;
+}
+.sasukes{
+    pdding: 20px
+}
+.sasukes h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title1::before{
+    content: '';
+    background: #1962bd;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title1::after{
+    content: '';
+    background: #1962bd;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+.btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    margin-top: 18px;
+    background-image: linear-gradient(to right, #00d4ff, #04b3bd, #055db1, #0651a9, #072c96, #090979, #00d4ff);
+}
+#madara{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.madaraTitle{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 8%;
+}
+#madara ul li{
+    margin: 10px 0;
+}
+#madara ul{
+    margin-left: 20px;
+}
+#itachi{
+    margin: 100px 0;
+}
+.itachi{
+    border-left: 4px solid #055db1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.itachi img {
+    height: 118px;
+    width: 103px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.itachiLekha{
+    display: inline-block;
+    font-size: 14px;
+}
+#kakashi{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#kakashi p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.icon img{
+    width: 60px;
+    transition: 0.5s;
+}
+.icon a:hover img{
+    transform: translateY(-10px);
+}
+#footer{
+    background-image: linear-gradient(to right, #00d4ff, #04b3bd, #055db1, #0651a9, #072c96, #090979, #00d4ff);
+    color: #fff;
+}
+.imgFooter{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
